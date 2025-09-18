@@ -1,0 +1,31 @@
+body{
+    background-color: #220440;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 227px;
+    height: 64px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    padding-right: 31px;
+}
+
+.container footer{
+    background-color: black;
+    
+}
+
+.container footer img{
+    display: flex;
+    align-items: center;
+}
