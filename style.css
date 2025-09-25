@@ -1,8 +1,17 @@
+*{
+    margin: 0; 
+}
+
+.rodape{
+    background-color: black;
+    height: 150px;
+}
 body{
     background-color: #220440;
 }
 
 header{
+    padding-top: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,12 +29,291 @@ nav a{
     padding-right: 31px;
 }
 
-.container footer{
+footer{
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.container img{
+    padding-top: 90px;
+    width: 771px;
+    height: 674px;
+}
+
+#sobremim{
+    padding-top: 12px;
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    gap: 32%;
+}
+
+.menu1 img{
+    width: 227px;
+    height: 64px;
     
 }
 
-.container footer img{
+.items{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 109px;
+}
+
+.esquerda{
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    padding-left: 134px;
+
+}
+
+.esquerda h1{
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    font-weight: 240;
+    font-size: 52px;
+}
+
+.esquerda p{
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    font-weight: 120;
+    font-size: 26px;
+}
+
+.esquerda img{
+    width: 399px;
+    height: 374px;
+    padding-top: 13px;
+}
+
+.direita{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-right: 157px;
+}
+
+.direita .imagens{
+    display: flex;
+   gap: 42px;
+   
+}
+.direita h2{
+    
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    font-weight: 240;
+    font-size: 52px;
+}
+
+.direita .vitrola img{
+    width: 109px;
+    height: 100px;
+}
+
+.direita .vitrola p{
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    font-weight: 103px;
+    font-size: 19px;
+}
+
+.direita .livro{
+    width: 129px;
+}
+.direita .livro img{
+    width: 129px;
+    height: 80px;
+}
+
+.direita .livro p{
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    font-weight: 103px;
+    font-size: 19px;
+}
+
+.direita .placa{
+    width: 100px;
+}
+
+.direita .placa img{
+    width: 100px;
+    height: 100px;
+}
+
+.direita .placa p{
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    font-weight: 103px;
+    font-size: 19px;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+    gap: 32%;
+}
+
+.menu2 img{
+    width: 227px;
+    height: 64px;
+    
+}
+
+#resumo{
+    height: 850px;
+    padding-top: 12px;
+}
+
+#resumo h3{
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    font-weight: 150px;
+    font-size: 52px;
+}
+
+#resumo .p{
+    width: 730px;
+    height: 223px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#resumo p{
+    padding-top: 15px;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-bottom: 41px;
+    display: flex;
+    align-items: center;
+    font-family: "Urbanist";
+    color: #FFFFFF;
+    font-weight: 110px;
+    font-size: 25px;
+}
+.resumo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 355px;
+    padding-left: 355px;
+    padding-top: 139px;
+}
+
+#entreemcontato{
+    background-color: black;
+    height: 850px;
+    padding-top: 12px;
+}
+.contatos{
+    padding-top: 243px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menucontato{
     display: flex;
     align-items: center;
 }
+
+.menucontato img{
+    width: 227px;
+    height: 64px;
+}
+
+.insta{
+    display: flex;
+    gap: 59px;
+    align-items: center;
+    padding-bottom: 61px;
+}
+
+.insta img{
+    width: 97px;
+    height: 100px;
+}
+
+.insta .p-insta{
+    width: 310px;
+    height: 36px;
+    background-color: #F2B705;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta p{
+    font-family: "Urbanist";
+    font-weight: 110px;
+    font-size: 25px;
+}
+
+.email{
+    display: flex;
+    gap: 59px;
+    align-items: center;
+    padding-bottom: 61px;
+}
+
+.email img{
+    width: 97px;
+    height: 100px;
+}
+
+.email .p-email{
+    width: 310px;
+    height: 36px;
+    background-color: #F2B705;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email p{
+    font-family: "Urbanist";
+    font-weight: 110px;
+    font-size: 25px;
+    padding-right: 24px;
+    padding-left: 23px;
+}
+
+.compartilhar{
+    display: flex;
+    gap: 59px;
+    align-items: center;
+}
+
+.compartilhar img{
+    width: 97px;
+    height: 100px;
+}
+
+.compartilhar .p-link{
+    width: 315px;
+    height: 36px;
+    background-color: #F2B705;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compartilhar p{
+    font-family: "Urbanist";
+    font-weight: 110px;
+    font-size: 25px;
+}
+
