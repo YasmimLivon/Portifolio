@@ -170,7 +170,7 @@ footer{
 }
 
 #resumo{
-    height: 850px;
+    height: 950px;
     padding-top: 12px;
 }
 
@@ -179,6 +179,7 @@ footer{
     color: #FFFFFF;
     font-weight: 150px;
     font-size: 52px;
+    padding-bottom: 54px;
 }
 
 #resumo .p{
@@ -211,7 +212,7 @@ footer{
 
 #entreemcontato{
     background-color: black;
-    height: 850px;
+    height: 950px;
     padding-top: 12px;
 }
 .contatos{
